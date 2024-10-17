@@ -9,9 +9,15 @@ export const ImageGallery = ({imgArr, openModal}) => {
                     key={img.id}
                     alt={img.alt_description}
                     src={img.urls.small}
-                    name={img.current_user_collections.description}
+                    name={img.description}
+                    srcReg={img.urls.regular}
+                    likes={img.likes}
                     openModal={openModal} />
             )}
         </ul>
     )
 }
+
+
+
+
