@@ -1,4 +1,10 @@
-
 .loadBtn {
-    margin-bottom: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+@media (prefers-color-scheme: light) {
+  .loadBtn {
+    border-color: #4c8be4;
+  }
 }

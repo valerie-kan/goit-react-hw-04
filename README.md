@@ -1,8 +1,13 @@
-# React + Vite
+# Photo Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://goit-react-hw-04-two-bay.vercel.app/gallery-screenshot.png" width="500">
 
-Currently, two official plugins are available:
+The photo gallery is built with React. Images are fetched using Unsplash API. A loading indicator, pagination and a modal window are implemented. Desktop version only.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies & Libraries
+
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge) | JavaScript library for building user interfaces |
+![REST API](https://img.shields.io/badge/-REST%20API-FF6C37?logo=api&logoColor=white&style=for-the-badge) | Fetching images from Unsplash API |
+![React Modal](https://img.shields.io/badge/-React%20Modal-000000?logo=react&logoColor=white&style=for-the-badge) | Modal window implementation |
+![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white&style=for-the-badge) | HTTP client for API requests |
+![Spinner](https://img.shields.io/badge/-Spinner-00D1B2?logo=loading&logoColor=white&style=for-the-badge) | Loading indicator during data fetch |

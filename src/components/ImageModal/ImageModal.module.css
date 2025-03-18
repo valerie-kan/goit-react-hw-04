@@ -1,38 +1,56 @@
 .modal {
-    width: 900px;
-    height: 500px;
-    overflow: hidden;
-    outline: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: default;
+  max-width: 900px;
+  max-height: 500px;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: default;
+  border-radius: 8px;
 }
 
 .ReactModal__Overlay {
-    position: fixed;
-    inset: 0px;
-    z-index: 99;
-    background-color: rgba(0, 0, 0, 0.75);
-    cursor: pointer;
+  position: fixed;
+  inset: 0px;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .imgModal {
-    width: 100%;
-    height: 95%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .imgTextCont {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(11, 11, 11, 0.8);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  padding-inline: 15px;
+  background-color: rgba(11, 11, 11, 0.8);
+  height: 24px;
 }
 
 .imgText {
-    margin: 0;
-    text-transform: capitalize;
-    font-weight: 600;
+  margin: 0;
+  text-transform: capitalize;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: light) {
+  .imgText {
+    color: rgba(255, 255, 255, 0.8);
+  }
 }

@@ -1,16 +1,28 @@
-
-.input {
-    padding: 5px 10px;
-    width: 300px;
-    margin-right: 10px;
-    font-size: 18px;
+.header {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  background-color: rgb(40, 67, 91);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.header {
-    margin: 0 auto;
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    background-color:rgb(40, 67, 91);
-    padding: 5px 0;
+.input {
+  padding: 5px 10px;
+  width: 300px;
+  margin-right: 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+.searchBtn {
+  padding: 8px;
+}
+
+@media (prefers-color-scheme: light) {
+  .header {
+    background-color: #4c8be4;
+  }
 }
